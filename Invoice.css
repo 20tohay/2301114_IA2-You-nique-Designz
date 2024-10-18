@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+   }
+
+header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 10px 100px;
+            background: #FFEBCD;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 99;
+        }
+.navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navigation a {
+            font-size: 1.1em;
+            color: black;
+            font-weight: 500;
+            margin-left: 40px;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .navigation a::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -6px;
+            width: 100%;
+            height: 3px;
+            background: white;
+            border-radius: 5px;
+            transform-origin: right;
+            transform: scaleX(0);
+            transition: transform .5s;
+        }
+
+        .navigation a:hover::after {
+            transform-origin: left;
+            transform: scaleX(1);
+        }
+
+
+       .lcontainer {
+            display: flex;
+    	    justify-content: center;
+            align-items: center; 
+            margin: 20px 0; 
+       }
+
+       .logo-container {
+            margin-right: 20px;
+       }
+
+       .logo-container img {
+           max-width: 270px; /* Resize the logo to make it smaller */
+          height: auto;
+       }
+
+       body {
+           background-color: #1b1e24;
+           overflow-x: hidden;
+           background: url('../Assets/Background.png') no-repeat;
+           background-size: cover;
+           background-position: center;
+       }
+
+      .invoice-container {
+           background: rgba(255, 255, 255, 0.8); 
+           backdrop-filter: blur(10px); /* Apply blur effect */
+           border-radius: 10px; /* Rounded corners */
+           padding: 20px; 
+           max-width: 800px;
+           margin: 20px auto; /* Center the invoice container */
+           box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+           display: flex;
+           justify-content: space-between; /* Space between the invoice content and the logo */
+           align-items: flex-start; 
+      }
+
+       #invoice-details {
+           text-align: center; /* Center the text inside the invoice details */
+      } 
+
+      .invoice-content {
+           flex: 1;
+           text-align: center; 
+      }
+
+     .invoicetable {
+           margin: 0 auto;
+           border-collapse: collapse;
+           font-size: 0.9rem;
+           min-width: 800px;
+           text-align: center;
+     }
+
+     .invoicetable thead {
+          background-color: #9FE2BF;
+          color: white;
+          font-weight: bold;
+     }
+
+     .invoicetable th, .invoicetable td {
+          padding: 12px 15px;
+          color: white;
+     }
+
+     .invoicetable tbody tr {
+          border-bottom: 1px solid #dddddd;
+     }
+
+     .invoicetable tbody tr:nth-of-type(even) {
+          background-color: #f3f3f3;
+     }
+
+     .invoicetable tbody tr:last-of-type {
+         border-bottom: 2px solid #9FE2BF;
+     }
+
+    .chargescontainer {
+         color: white;
+         font-size: 0.95rem;
+         margin-left: 900px;
+     }
+
+     .invoicecharges {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+     }
+
+    .invoicecharges h4 {
+        font-weight: 500;
+     }
+
+    .invoicecharges h4:first-of-type {
+       font-weight: bold;
+     }
+
+    .sub {
+       margin-right: 100px;
+     }
+
+    .gct {
+       margin-right: 136px;
+     }
+
+    .tax {
+       margin-right: 140px;
+    }
+
+    .grand {
+       margin-right: 78px;
+    }
+
+    #taxcontainer {
+       border-bottom: 2px solid #9FE2BF;
+       width: 40%;
+    }
+
+   .container {
+      margin-left: 355px;
+    }
+
+    .dcontainer {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .dcontainer h4 {
+      color: white;
+      font-size: 0.8rem;
+    }
+
+   .name {
+      margin-right: 16px;
+    }
+
+   .name1 {
+      margin-right: 10px;
+    }
+
+   .exit:hover {
+      transform: scale(1.2);
+      opacity: 70%;
+      transition: 0.7s;
+    }
+
+    .exit {
+      background-color: transparent;
+      border: none;
+      font-size: 25px;
+      color: red;
+      cursor: pointer;
+      transition: 0.7s;
+    }
+
+   .cancel {
+      padding: 12px 30px;
+      background-color: white;
+      outline: none;
+      border: none;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 500;
+      margin-left: 710px;
+   }
+
+   .final {
+      padding: 12px 30px;
+      background-color: white;
+      outline: none;
+      border: none;
+   }
+
+
+
+
+
+
+
