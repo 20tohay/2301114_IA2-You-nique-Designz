@@ -73,7 +73,7 @@ header {
        body {
            background-color: #1b1e24;
            overflow-x: hidden;
-           background: url('../Assets/Background.png') no-repeat;
+           background: url('Background.png') no-repeat;
            background-size: cover;
            background-position: center;
        }
