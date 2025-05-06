@@ -1,5 +1,6 @@
 This project was aim for us student in a Web Programming class to develop a website based on a business idea !!!!
-A demo video is included
+A demo video is included click the link to view  https://drive.google.com/file/d/15W_rB1P6TfkQgWRx8EmYidXY
+74DXMrR/view?usp=sharing   
                                   Description of Business 
 This small business emerged in November 2021 because of the rising passion to spread positivity 
 and boost self-love amongst others especially during the period of the COVID- 19 pandemic. 
